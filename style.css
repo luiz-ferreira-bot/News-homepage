@@ -4,14 +4,22 @@
     align-items: center;
 }
 
+
 img{
-    width: 50%;
+    width: 
+}
+
+.primeira-img{
+    width: 100%;
 }
 
 .item-1{
-    grid-area: fabiana;
-    background-color: blue;
+    grid-area: fabiana; 
+    width: 1fr;
+    background-color: aliceblue;
+       
 }
+
 
 .item-2{
     grid-area: carla;
@@ -22,31 +30,73 @@ img{
     grid-area: tania;
     background-color: rgb(255, 0, 200);
 }
+strong{
+    font-size: 3rem;
+    font-family: 'Extra-bold';
+    width: 300px;
+    display: block;
+    /* background-color: aliceblue; */
+    
+}
 
 .item-4{
     grid-area: felipa;
     background-color: rgb(75, 191, 236);
+    font-family: 'Variable';
+}
+.btn{
+    display: block;
+    border: 1px solid black;
+    padding: px;
+    width: 150px;
+    background-color: var(--cor1);  
+    text-align: center;
+}
+.p{
+    margin-bottom: 56px;
+}
+a{
+    text-decoration: none;
+    color: var(--cor5);
+    font-family: 'Bold';
 }
 
 .item-5{
     grid-area: titia;
-    background-color: rgb(224, 66, 93);
+    display: flex;
+}
+.pc-antigo{
+    width: 100px;
+    height: 150px;
+}
+.pcs{
+    background-color: aliceblue;
+    /* width: 100px; */
+    text-align: justify;
 }
 
 .item-6{
     grid-area: joana;
-    background-color: rgb(207, 124, 16);
+    display: flex;
 }
 
 .item-7{
     grid-area: neuza;
-    background-color: rgb(51, 71, 44);
+    display: flex;
 }
 
 .container{
+
 display: grid;
-grid:
+grid-template-columns: repeat(3, 270px);
+grid-template-rows: repeat(3, auto);
+grid-template-areas: 
 "fabiana fabiana carla"
 "tania felipa carla"
 "titia joana neuza";
+}
+
+main{
+    padding: 10px;
+    gap: 10px;
 }

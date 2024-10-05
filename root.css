@@ -6,15 +6,19 @@
 
 
 body {
-    /* width: 1446px; */
+    /* width: 100vh; */
     height: 100vh;
     background-color: antiquewhite;
-    margin: auto;
+    
+    
 }
 
 .container-principal{
-    width: 600px;
-    margin: auto;
+    background-color: rebeccapurple;
+    width: 1440px;
+    margin: 70px auto 70px auto;
+    
+    
 }
 
 @font-face {
@@ -50,7 +54,4 @@ body {
     --Inter-variable: 'Variable';
 }
 
-div.header-2{
-    font-family: var(--Inter-variable);
-}
 
