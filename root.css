@@ -1,0 +1,43 @@
+body {
+    /* width: 1446px; */
+    background-color: antiquewhite;
+    margin: auto;
+}
+
+@font-face {
+    font-family: 'Bold';
+    src: url('assets/fonts/static/Inter-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Extra-bold';
+    src: url('assets/fonts/static/Inter-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Regular';
+    src: url('assets/fonts/static/Inter-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Variable';
+    src: url('assets/fonts/Inter-VariableFont_slnt\,wght.ttf') format('truetype');
+}
+
+:root {
+    --cor0: hsl(35, 77%, 62%);
+    --cor1: hsl(5, 85%, 63%);
+    --cor2: hsl(36, 100%, 99%);
+    --cor3: hsl(233, 8%, 79%);
+    --cor4: hsl(236, 13%, 42%);
+    --cor5: hsl(240, 100%, 5%);
+
+    --Inter-bold: 'Bold';
+    --Inter-extra-bold: 'Extra-bold';
+    --Inter-regular: 'Regular';
+    --Inter-variable: 'Variable';
+}
+
+div.header-2{
+    font-family: var(--Inter-variable);
+}
+
